@@ -1,0 +1,25 @@
+{
+  "package": {
+    "name": "phpmetrics",
+    "repo": "phpmetrics",
+    "subject": "phpmetrics",
+    "desc": "Static analyzer for PHP",
+    "website_url": "http://www.phpmetrics.org",
+    "issue_tracker_url": "https://github.com/phpmetrics/phpmetrics/issues",
+    "vcs_url": "https://github.com/phpmetrics/phpmetrics.git",
+    "licenses": ["MIT"]
+  },
+  "version": {
+    "name": "v2.8.2",
+    "desc": "Latest version of PhpMetrics",
+    "released": "2023-03-08",
+    "vcs_tag": "v2.8.2",
+    "attributes": [],
+    "gpgSign": false
+  },
+  "files":
+  [
+    {"includePattern": "build/(phpmetrics.*)", "uploadPattern": "/$1" }
+  ],
+  "publish": true
+}
